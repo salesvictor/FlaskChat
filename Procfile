@@ -1,1 +1,1 @@
-web: gunicorn -w 1 flaskchat:app
+web: gunicorn --worker-class socketio.sgunicorn.GeventSocketIOWorker flaskchat:app
