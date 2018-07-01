@@ -1,4 +1,4 @@
-var url = 'https://' + document.domain + ':' + location.port
+var url = 'http://' + document.domain + ':' + location.port
 var socket = io.connect(url)
 
 socket.on('connect', connected)
