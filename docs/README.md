@@ -24,7 +24,10 @@ Flask Chat is a simple project for a multi-user chat platform, focused on a inte
 └── Procfile (on deployment server)
 ```
 
-## Setting up the code
+## Running deployed server
+To see the deployed server on [Heroku](https://heroku.com), enter [this](https://salesvictor-chat.herokuapp.com/) link.
+
+## Running local server
 The following instructions are based on Linux (Ubuntu >= 16.04) setup for localhosting of the web application project.
 
 ### Prerequisites
