@@ -1,1 +1,1 @@
-web: gunicorn -w 4 flaskchat:app
+web: gunicorn -k flask_sockets.worker flaskchat:app
