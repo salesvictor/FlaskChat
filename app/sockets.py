@@ -5,5 +5,5 @@ def messageReceived(methods=['GET', 'POST']):
 
 @socketio.on('my event')
 def handle_my_event(json, methods=['GET', 'POST']):
-  print(f'received my evend: {str(json)}')
+  print(f'received my event: {str(json)}')
   socketio.emit('my response', json, callback=messageReceived)
